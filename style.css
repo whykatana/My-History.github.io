@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url('img/everest.jpg');
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
+}
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    transform-style: all 2s;
+    z-index: 3;
+}
+
+nav {
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+.left {
+    margin-right: auto
+}
+
+a {
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:active,
+    {
+    color: red;
+}
+
+.active {
+    border-radius: 30px;
+    background-color: red;
+}
+
+/* SECTION */
+.section1 {
+    position: relative;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.fixed-header {
+    background-color: #fff;
+    color: black;
+}
+body {
+    height: 6000px;
+}
